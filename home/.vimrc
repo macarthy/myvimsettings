@@ -196,13 +196,13 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 " -----------------------------------------------------------------------------  
 
 " NERDTree ********************************************************************
-:noremap ,n :NERDTreeToggle<CR>
+" :noremap ,n :NERDTreeToggle<CR>
 
 " User instead of Netrw when doing an edit /foobar
-let NERDTreeHijackNetrw=1
+" let NERDTreeHijackNetrw=1
 
 " Single click for everything
-let NERDTreeMouseMode=1
+" let NERDTreeMouseMode=1
 
 
 " SnippetsEmu *****************************************************************
