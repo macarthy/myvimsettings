@@ -251,7 +251,7 @@ let g:AutoComplPop_BehaviorKeywordLength = 2
 " Open NERDTree on start
 "autocmd VimEnter * exe 'NERDTree' | wincmd l 
 
-
+map <F2> :NERDTreeToggle<CR>
 
 " -----------------------------------------------------------------------------  
 " |                               Host specific                               |
