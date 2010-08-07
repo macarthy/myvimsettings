@@ -12,6 +12,11 @@ if has("gui_macvim")
   set guioptions-=T  " remove toolbar
   set stal=2 " turn on tabs by default
 
+
+	macmenu &File.New\ Tab key=<nop>
+	map <D-t> <Plug>PeepOpen
+
+
 elseif has("gui_gtk2")
 
   set guifont=Monaco
