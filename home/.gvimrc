@@ -37,3 +37,8 @@ set lines=50
 
 " Tab headings 
 set gtl=%t gtt=%F
+
+" use ack
+set grepprg=ack
+set grepformat=%f:%l:%m
+
