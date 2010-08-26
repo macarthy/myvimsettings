@@ -213,10 +213,6 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 "let g:snip_set_textmate_cp = '1'  " Tab to expand snippets, not automatically.
 
 
-" fuzzyfinder_textmate ********************************************************
-map ,f :FuzzyFinderTextMate<CR>
-map ,b :FuzzyFinderBuffer<CR>
-"let g:fuzzy_ignore = '.o;.obj;.bak;.exe;.pyc;.pyo;.DS_Store;.db'
 
 " autocomplpop ***************************************************************
 " complete option
