@@ -25,7 +25,7 @@
 " | Put machine/user specific settings in ~/.vimrc.local                      |
 " -----------------------------------------------------------------------------  
 
-
+set mapleader=","
 set nocompatible
 
 
