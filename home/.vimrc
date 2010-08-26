@@ -227,6 +227,8 @@ let g:AutoComplPop_IgnoreCaseOption = 0
 let g:AutoComplPop_BehaviorKeywordLength = 2
 
 
+map <leader>s :Ack<space>
+
 
 " -----------------------------------------------------------------------------  
 " |                             OS Specific                                   |
