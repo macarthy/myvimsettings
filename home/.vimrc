@@ -203,6 +203,8 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 
 " Single click for everything
 " let NERDTreeMouseMode=1
+let NERDTreeShowHidden = 1
+
 
 
 " SnippetsEmu *****************************************************************
