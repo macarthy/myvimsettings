@@ -94,6 +94,7 @@ colorscheme ir_black
 
 
 " Status Line *****************************************************************
+"
 set showcmd
 set ruler " Show ruler
 "set ch=2 " Make command line two lines high
@@ -215,8 +216,8 @@ let NERDTreeShowHidden = 1
 "let g:snip_set_textmate_cp = '1'  " Tab to expand snippets, not automatically.
 
 " add git status
-set laststatus=2 " Enables the status line at the bottom of Vim
-set statusline=%{GitBranchInfoString()}
+"set laststatus=2 " Enables the status line at the bottom of Vim
+"set statusline=%{GitBranchInfoString()}
 
 
 " autocomplpop ***************************************************************
