@@ -39,6 +39,6 @@ set lines=50
 set gtl=%t gtt=%F
 
 " use ack
-set grepprg=ack
-set grepformat=%f:%l:%m
+"set grepprg=ack
+"set grepformat=%f:%l:%m
 

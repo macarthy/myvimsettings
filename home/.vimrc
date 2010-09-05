@@ -214,6 +214,9 @@ let NERDTreeShowHidden = 1
 "let g:snip_elem_delim = ":"
 "let g:snip_set_textmate_cp = '1'  " Tab to expand snippets, not automatically.
 
+" add git status
+set laststatus=2 " Enables the status line at the bottom of Vim
+set statusline=%{GitBranchInfoString()}
 
 
 " autocomplpop ***************************************************************
