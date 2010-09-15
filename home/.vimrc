@@ -117,7 +117,7 @@ imap aa @
 " Directories *****************************************************************
 " Setup backup location and enable
 set backupdir=~/backup/vim
-set backup on
+set backup 
 
 " Set Swap directory
 set directory=~/backup/vim/swap
