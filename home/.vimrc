@@ -117,7 +117,7 @@ imap aa @
 " Directories *****************************************************************
 " Setup backup location and enable
 set backupdir=~/backup/vim
-"set backup
+set backup on
 
 " Set Swap directory
 set directory=~/backup/vim/swap
@@ -220,7 +220,7 @@ let NERDTreeShowBookmarks = 1
 " Show hidden files
 let NERDTreeShowHidden = 1
 " Don't hijack NETRW
-let NERDTreeHijackNetrw = 0
+"let NERDTreeHijackNetrw = 0
 let NERDTreeIgnore=['\.$', '\~$','.DS_Store']
 
 
