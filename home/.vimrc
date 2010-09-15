@@ -116,11 +116,11 @@ imap aa @
 
 " Directories *****************************************************************
 " Setup backup location and enable
-"set backupdir=~/backup/vim
+set backupdir=~/backup/vim
 "set backup
 
 " Set Swap directory
-"set directory=~/backup/vim/swap
+set directory=~/backup/vim/swap
 
 " Sets path to directory buffer was loaded from
 "autocmd BufEnter * lcd %:p:h
@@ -190,6 +190,9 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " May require ruby compiled in
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete 
 
+" from http://vim.wikia.com/wiki/VimTip1386
+:set completeopt=longest,menuone
+:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 
 " -----------------------------------------------------------------------------  
@@ -204,7 +207,21 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 
 " Single click for everything
 " let NERDTreeMouseMode=1
+
+" Enable nice colors
+let NERDChristmasTree = 1
+
+" Make it easy to see where we are
+let NERDTreeHighlightCursorline = 1
+
+" Make bookmarks visible
+let NERDTreeShowBookmarks = 1
+
+" Show hidden files
 let NERDTreeShowHidden = 1
+" Don't hijack NETRW
+let NERDTreeHijackNetrw = 0
+let NERDTreeIgnore=['\.$', '\~$','.DS_Store']
 
 
 
