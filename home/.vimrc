@@ -116,11 +116,10 @@ imap aa @
 
 " Directories *****************************************************************
 " Setup backup location and enable
-set backupdir=~/backup/vim
-set backup 
 
-" Set Swap directory
-set directory=~/backup/vim/swap
+
+set nobackup
+set noswapfile
 
 " Sets path to directory buffer was loaded from
 "autocmd BufEnter * lcd %:p:h
