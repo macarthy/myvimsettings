@@ -28,6 +28,8 @@
 let mapleader=","
 set nocompatible
 
+silent! call pathogen#runtime_append_all_bundles()
+
 
 " Tabs ************************************************************************
 "set sta " a <Tab> in an indent inserts 'shiftwidth' spaces
