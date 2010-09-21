@@ -13,3 +13,6 @@
 [submodule "home/.vim/bundle/vim-cucumber"]
 	path = home/.vim/bundle/vim-cucumber
 	url = http://github.com/tpope/vim-cucumber.git
+[submodule "home/.vim/bundle/vim-javascript"]
+	path = home/.vim/bundle/vim-javascript
+	url = http://github.com/pangloss/vim-javascript.git
