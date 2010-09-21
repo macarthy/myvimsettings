@@ -10,3 +10,6 @@
 [submodule "home/.vim/bundle/ack.vim"]
 	path = home/.vim/bundle/ack.vim
 	url = http://github.com/mileszs/ack.vim.git
+[submodule "home/.vim/bundle/vim-peepopen"]
+	path = home/.vim/bundle/vim-peepopen
+	url = http://github.com/topfunky/PeepOpen-EditorSupport.git
