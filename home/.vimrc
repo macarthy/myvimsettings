@@ -26,12 +26,11 @@
 " -----------------------------------------------------------------------------  
 
 filetype off
+silent! call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
 
 let mapleader=","
 set nocompatible
-
-silent! call pathogen#runtime_append_all_bundles()
-
 
 " Tabs ************************************************************************
 "set sta " a <Tab> in an indent inserts 'shiftwidth' spaces
@@ -130,7 +129,6 @@ set noswapfile
 
 
 " File Stuff ******************************************************************
-filetype plugin indent on
 " To show current filetype use: set filetype
 
 "autocmd FileType html :set filetype=xhtml 
