@@ -25,6 +25,8 @@
 " | Put machine/user specific settings in ~/.vimrc.local                      |
 " -----------------------------------------------------------------------------  
 
+filetype off
+
 let mapleader=","
 set nocompatible
 
