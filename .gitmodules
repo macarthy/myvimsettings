@@ -22,6 +22,3 @@
 [submodule "home/.vim/bundle/snipmate"]
 	path = home/.vim/bundle/snipmate
 	url = http://github.com/msanders/snipmate.vim.git
-[submodule "home/.vim/module/jslint-vim"]
-	path = home/.vim/module/jslint-vim
-	url = http://github.com/hallettj/jslint.vim.git
