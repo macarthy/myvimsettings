@@ -27,6 +27,7 @@
 
 filetype off
 silent! call pathogen#runtime_append_all_bundles()
+
 filetype plugin indent on
 
 let mapleader=","
@@ -102,6 +103,20 @@ set showcmd
 set ruler " Show ruler
 "set ch=2 " Make command line two lines high
 match LongLineWarning '\%120v.*' " Error format when a line is longer than 120
+
+"%{fugitive#statusline()}
+
+set statusline=%t       "tail of the filename
+ set statusline+=[%{fugitive#statusline()}, "git status
+ set statusline+=%{&ff}] "file format
+ set statusline+=%h      "help file flag
+ set statusline+=%m      "modified flag
+ set statusline+=%r      "read only flag
+ set statusline+=%y      "filetype
+ set statusline+=%=      "left/right separator
+ set statusline+=%c,     "cursor column
+ set statusline+=%l/%L   "cursor line/total lines
+set statusline+=\ %P    "percent through file
 
 
 " Line Wrapping ***************************************************************
@@ -243,8 +258,8 @@ let NERDTreeIgnore=['\.$', '\~$','.DS_Store']
 "set complete=.,w,b,u,t,k
 "let g:AutoComplPop_CompleteOption = '.,w,b,u,t,k'
 "set complete=.
-let g:AutoComplPop_IgnoreCaseOption = 0
-let g:AutoComplPop_BehaviorKeywordLength = 2
+"let g:AutoComplPop_IgnoreCaseOption = 0
+"let g:AutoComplPop_BehaviorKeywordLength = 2
 
 
 map <leader>s :Ack<space>
