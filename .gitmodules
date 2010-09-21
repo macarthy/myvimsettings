@@ -13,3 +13,6 @@
 [submodule "home/.vim/bundle/vim-peepopen"]
 	path = home/.vim/bundle/vim-peepopen
 	url = http://github.com/topfunky/PeepOpen-EditorSupport.git
+[submodule "home/.vim/bundle/vim-cucumber"]
+	path = home/.vim/bundle/vim-cucumber
+	url = http://github.com/tpope/vim-cucumber.git
